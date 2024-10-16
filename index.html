@@ -9,7 +9,7 @@
 <body>
   <div class="container">
     <div class="title">Registration</div>
-    <form>
+    <form action="../result.html" method="get">
       <div class="user-details">
         <div class="input-box">
           <label for="fullnameInput" class="details">FullName:</label>
@@ -54,6 +54,17 @@
         <div class="input-box">
           <label for="passwordInput" class="details">Password:</label>
           <input name="password" id="passwordInput" type="password" placeholder="Enter your password" required>
+        </div>
+      </div>
+      <div class="food-details">
+        <span class="food-title">Favourite Food</span>
+        <div>
+          <label for="bananaInput">Banana</label>
+          <input name="banana" id="bananaInput" type="checkbox" value="banana">
+        </div>
+        <div>
+          <label for="appleInput">Apple</label>
+          <input name="apple" id="appleInput" type="checkbox" value="apple">
         </div>
       </div>
       <div class="gender-details">
